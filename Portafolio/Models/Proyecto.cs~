@@ -1,0 +1,14 @@
+﻿using System;
+namespace Portafolio.Models
+{
+	public class Proyecto
+	{
+		public object Titulo { get; set; }
+		public object Descripcion { get; set; }
+		public object ImagenURL { get; set; }
+		public object Link { get; set; }
+		{
+		}
+	}
+}
+

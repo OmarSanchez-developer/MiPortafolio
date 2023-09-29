@@ -1,0 +1,12 @@
+﻿using System;
+namespace Portafolio.Models
+{
+	public class EjemploGUIDViewModel
+	{
+		public GUID Transitorio { get; set; }
+		public GUID Delimitado { get; set; }
+		public GUID Unico { get; set; }
+
+	}
+
+}

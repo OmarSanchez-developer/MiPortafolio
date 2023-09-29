@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Soy Omar Sánchez</h1>
+    <h2>Soy Un Desarrollador Full Stack, especializado en tecnologías JavaScript,  .NET</h2>
+
+
+
+    <img src="~/img/foto.jpeg" alt="Foto de Omar" />
+</div>
+

@@ -1,0 +1,57 @@
+﻿<partial name="_Presentacion" />
+<div style="margin-top: -105px">
+
+    <div class="row justify-content-md-center text-center">
+        <div class="col col-3 bg-white habilidades" style="border-radius: 15px 0 0 15px; box-shadow: 0 5px 5px 0 gray">
+            <i class="bi-hdd-fill"> </i>
+            <h3>Back-end</h3>
+
+            <p>
+                Trabajo haciendo proyectos de aplicaciones corriendo en servidores locales,proximamente corriendo en producción con entregas continuas.
+            </p>
+
+            <p class="text-primary cabecera">
+                Stack:
+
+            </p>
+            ASP.NET Core, JavaScript
+            <p class="text-primary cabecera">
+                Experiencia:
+            </p>
+            <ul>
+                <li> Principios en React</li>
+                <li> Principios de Queries especiales</li>
+                <li> Principios de Web APIS</li>
+                <li> Principios de React</li>
+                <li> Principios de SQL Server</li>
+                <li> JavaScript intermedio</li>
+            </ul>
+        </div>
+        <div class="col col-3 bg-white habilidades" style="border-radius: 0 15px 15px 0; box-shadow: 0 5px 5px 0 gray">
+            <i class="bi bi-code-slash"></i>
+            <h3>Fron-End</h3>
+            <p>
+                Puedo Crear sitios web Front-end, Los cuales cumplen con los requerimientos del negocio.
+            </p>
+
+            <p class="text-primary cabecera">
+                Stack:
+            </p>
+
+            React, Angular, Blazor
+
+            <p class="text-primary cabecera">
+                Experiencia:
+            </p>
+
+
+            <ul>
+                <li> Principios React</li>
+                <li> Principios Angular </li>
+                <li> Principios de Blazor</li>
+                <li> Principios de Pruebas automáticas</li>
+            </ul>
+        </div>
+
+    </div>
+</div>

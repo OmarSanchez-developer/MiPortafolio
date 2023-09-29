@@ -1,0 +1,47 @@
+﻿using System;
+using Portafolio.Models;
+
+namespace Portafolio.Servicios
+{
+    public  interface IRepositorioProyectos
+    {
+
+    }
+    public class RepositorioProyectos: IRepositorioProyectos
+	{
+        public List<Proyecto> ObtenerProyectos()
+        {
+            return new List<Proyecto>() {
+            new Proyecto
+        {
+            Titulo = "Pagina web de Tienda de PC Gamers",
+            Descripcion = "Pagina web de equipos Gamer",
+            Link = "https://omarsanchez-developer.github.io/SitioWebGamer/Tienda-En-Linea-Gamer/",
+            ImagenURL = "/img/Gamer2.png"
+        },
+              new Proyecto
+        {
+            Titulo = "API PODEKEX CON JAVASCRIPT",
+            Descripcion = "API de Pokemon con Javascript",
+            Link = "https.//www.gituhub.com",
+            ImagenURL = "/img/Api-pokemon.png"
+        },
+                new Proyecto
+        {
+            Titulo = "Curso Esencial con HTML & Java Script",
+            Descripcion = "Pagina web con Html, Css, Java Script",
+            Link = "https://omarsanchez-developer.github.io/curso-esencial-html-css/index.html",
+            ImagenURL = "/img/Fudaments-Html.png"
+        },
+                  new Proyecto
+        {
+            Titulo = "Pagina web de Tienda de PC Gamers",
+            Descripcion = "Pagina web de equipos Gamer",
+            Link = "https://omarsanchez-developer.github.io/SitioWebGamer/Tienda-En-Linea-Gamer/",
+            ImagenURL = "/img/Gamer2.png"
+        },
+        };
+        }
+    }
+}
+
