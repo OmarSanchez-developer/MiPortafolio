@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Proyecto>
+
+
+@
+    ViewData["Title"] = "Proyectos";
+}
+
+div class
+
